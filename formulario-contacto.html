@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div class="formulario">
+      <h1>Formulario de Contacto</h1>
+
+      <form id="contactoForm" onsubmit="mostrarDatos(event)">
+        <input type="text" id="nombre" placeholder="Nombre completo" required>
+        <input type="email" id="correo" placeholder="Correo electrónico" required>
+        <input type="text" id="direccion" placeholder="Dirección" required>
+        
+        <select id="comuna" required>
+          <option value="">Selecciona una comuna</option>
+          <option value="Santiago Centro">Santiago Centro</option>
+          <option value="Providencia">Providencia</option>
+          <option value="Las Condes">Las Condes</option>
+          <option value="Ñuñoa">Ñuñoa</option>
+          <option value="La Florida">La Florida</option>
+          <option value="Puente Alto">Puente Alto</option>
+          <option value="Maipú">Maipú</option>
+          <option value="Lo Barnechea">Lo Barnechea</option>
+          <option value="San Miguel">San Miguel</option>
+          <option value="Recoleta">Recoleta</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="resultado"></div>
+    </div>
+    <a href="index.html" class="boton">Volver al Inicio</a>
+  </div>
+
+
+      <!-- Js -->
+      <script src="formulario-contacto.js"></script>
+
+</body>
+</html>
