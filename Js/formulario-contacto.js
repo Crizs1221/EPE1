@@ -7,7 +7,7 @@ function mostrarDatos(event) {
     const direccion = document.getElementById("direccion").value;
     const comuna = document.getElementById("comuna").value;
 
-    // Mostrar en alert
+    // Muestra la alerta  
     alert(`Datos ingresados:\nNombre: ${nombre}\nCorreo: ${correo}\nDirección: ${direccion}\nComuna: ${comuna}`);
 
     // Mostrar en la página

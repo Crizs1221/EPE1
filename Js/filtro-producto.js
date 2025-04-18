@@ -1,9 +1,9 @@
 const productos = [
     { nombre: "Manzana", categoria: "Fruta" },
-    { nombre: "Banana", categoria: "Fruta" },
+    { nombre: "Platano", categoria: "Fruta" },
     { nombre: "Naranja", categoria: "Fruta" },
     { nombre: "Pera", categoria: "Fruta" },
-    { nombre: "Fresa", categoria: "Fruta" },
+    { nombre: "Frutilla", categoria: "Fruta" },
     { nombre: "Zanahoria", categoria: "Verdura" },
     { nombre: "Lechuga", categoria: "Verdura" },
     { nombre: "Tomate", categoria: "Verdura" },

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('fondo.jpg'); /* Asegúrate de tener esta imagen en tu carpeta */
+    background-image: url('/img/fondo.jpg'); /* Asegúrate de tener esta imagen en tu carpeta */
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -17,7 +17,8 @@ body {
   }
 
   h1 {
-    color: white;
+    color: greenyellow;
+
     margin-bottom: 40px;
   }
 
